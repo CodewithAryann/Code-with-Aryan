@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant', serif;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+}
+
+#back{
+    width: 100%;
+    height: 100vh;
+}
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+#workingarea{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0;
+}
+#nav img{
+    height: 66px;
+}
+#nleft , #nright{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#nav a{
+    pointer-events: all;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+    font-size: 14px;
+}
+#hero{
+    position: absolute;
+    top: 50%;
+    left:0;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0%,-50%);
+    width: 100%;
+}
+#heroleft{
+    min-width:50%;
+}
+#heroleft .elemt{
+    position: relative;
+    height: 9vw;
+    overflow: hidden;
+}
+#heroleft .elemt h1:nth-child(1){
+    top: 0;
+}
+#heroleft .elemt h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    line-height: 0.9;
+font-family: "Kajiro";
+color: #fff;
+font-weight: 100;
+font-size: 11vw;
+}
+#heroleft button{
+    pointer-events: all;
+    padding: .8vw 4vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+    font-family: "Kajiro";
+}
+#heroright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:17%;
+color: #fff;
+}
+#heroright p{
+    text-align: right;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#heroright  #p2{
+font-size: 14px;
+}
+#heroright #imagediv{
+    width: 100%;
+    height: 123px;
+    margin-top: 11px;
+    margin-bottom: 30px;
+background-image: url(https://www.usnews.com/object/image/00000181-a6d4-d42a-aded-bed5286b0000/tag%3Areuters.com%2C2022%3Anewsml_LYNXMPEI5Q0UP%3A12022-06-27T201903Z_1_LYNXMPEI5Q0UP_RTROPTP_3_NIKE-RESULTS.JPG?update-time=1656363507000&size=responsive640);
+background-size: cover;
+background-position: center;
+}
+#imagediv {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+
+#heroright p:nth-child(3){
+    margin-bottom: 23px;
+}
+
+

@@ -1,0 +1,139 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20;
+    background-image: url('bg2.jpg');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #fish{
+    font-size: 17px;
+    text-transform: uppercase;
+    width: 41%;
+    background: #e13d5a;
+    padding: 2px;
+  }
+  #fish-img{
+    width: 11%;
+    margin-right: 4px;
+  }
+#heading{
+    background: white;
+    color: #ff0091;
+    font-weight: 100;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 3rem;
+    width: 91%;
+    margin-right: 27px;
+    padding: 4px;
+}
+.soundboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.sound-button br + span {
+    display: block;
+    margin: 13px 0px;
+    font-weight: 600;
+  }
+.sound-button {
+    height: 90%;
+    background-color: white;
+    padding: 45px;
+    border: 7px solid black;
+    color: black;
+    border-radius: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.sound-button:hover {
+    background-color: #ff0091;
+}
+#right{
+    width: 61%;
+}
+.sound-button {
+    margin: 8px;
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+}
+#left{
+    margin-left: 2rem;
+    margin-bottom: 16rem;
+}
+
+#text-input {
+    width: 200px;
+    font-size: 16px;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 88px;
+    border-radius: 18px;
+    padding-right: 113px;
+    padding-left: 14px;
+    border: none;
+}
+
+#speak-button {
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 16px;
+    border: 7px solid white;
+    background: black;
+    color: white;
+    position: relative;
+    top: 6px;
+}
+#speak-button:hover{
+    cursor: pointer;
+}
+#heading {
+    margin-left: auto;
+}
+
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+}
+#control-buttons{
+    width: 20%;
+    position: relative;
+    left: 38rem;
+    top: -1rem;
+}
+
+#left-button, #right-button {
+    width: 34%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 2rem;
+    font-size: 31px;
+    border-radius: 2rem;
+    border: none;
+    padding-bottom: 0px;
+}
+#left-button ,#right-button:hover{
+    cursor: pointer;
+}
+svg{
+    width: 45px;
+    margin-top: -2px;
+    margin-bottom: -3px;
+}
+#left-arrow[hidden], #right-arrow[hidden] {
+    display: none;
+}
