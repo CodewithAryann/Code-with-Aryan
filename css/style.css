@@ -160,7 +160,7 @@ textarea {
   .btn:hover {
     transform: translateY(-3px); }
   .btn--bg {
-    padding: 1.5rem 8rem;
+    padding: 1.5rem 3rem;
     font-size: 2rem; }
   .btn--med {
     padding: 1rem 3rem;
